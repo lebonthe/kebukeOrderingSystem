@@ -86,7 +86,7 @@ class CartViewController: UIViewController {
         let url = URL(string: "https://api.airtable.com/v0/appydWW9bHuuV62CI/drinks")!
         // 創建一個 URLRequest 物件
         var request = URLRequest(url: url)
-        // 設定請求頭部的授權權杖
+        // 設定request header 的 authorization token
         request.setValue("Bearer patDK3AqYWQtOw56w.5178e21af56537e366ad0f7cdd338c1540609463807697514d1aeeb8ca25b289", forHTTPHeaderField: "Authorization")
         // 設定請求方法為 POST
         request.httpMethod = "POST"

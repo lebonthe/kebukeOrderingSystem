@@ -9,21 +9,46 @@
 /* Begin PBXBuildFile section */
 		9F33324B2B35DDDC005DFDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33324A2B35DDDC005DFDF1 /* AppDelegate.swift */; };
 		9F33324D2B35DDDC005DFDF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33324C2B35DDDC005DFDF1 /* SceneDelegate.swift */; };
-		9F33324F2B35DDDC005DFDF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33324E2B35DDDC005DFDF1 /* ViewController.swift */; };
 		9F3332522B35DDDC005DFDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3332502B35DDDC005DFDF1 /* Main.storyboard */; };
 		9F3332542B35DDDF005DFDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3332532B35DDDF005DFDF1 /* Assets.xcassets */; };
 		9F3332572B35DDDF005DFDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3332552B35DDDF005DFDF1 /* LaunchScreen.storyboard */; };
+		9F3332612B35DF73005DFDF1 /* KebukeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3332602B35DF73005DFDF1 /* KebukeMenu.swift */; };
+		9F3332632B36AAEA005DFDF1 /* EnteringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3332622B36AAEA005DFDF1 /* EnteringViewController.swift */; };
+		9F3332652B397442005DFDF1 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3332642B397442005DFDF1 /* OrderViewController.swift */; };
+		9F3332872B3AF52C005DFDF1 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3332862B3AF52C005DFDF1 /* OrderTableViewCell.swift */; };
+		9F33328A2B3B24E1005DFDF1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F3332892B3B24E1005DFDF1 /* Kingfisher */; };
+		9F33328E2B3B5807005DFDF1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33328D2B3B5807005DFDF1 /* DetailViewController.swift */; };
+		9F3332902B3B5F4D005DFDF1 /* sweetIceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33328F2B3B5F4D005DFDF1 /* sweetIceTableViewCell.swift */; };
+		9F3332982B3C79D9005DFDF1 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3332972B3C79D9005DFDF1 /* CartViewController.swift */; };
+		9F33329A2B3C7AD3005DFDF1 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3332992B3C7AD3005DFDF1 /* CartTableViewCell.swift */; };
+		9F33329C2B3CB0B7005DFDF1 /* UploadOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33329B2B3CB0B7005DFDF1 /* UploadOrder.swift */; };
+		9F3332A02B3D3E00005DFDF1 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33329F2B3D3E00005DFDF1 /* ListTableViewController.swift */; };
+		9FA47A762B3DA34E00BBA7D2 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA47A752B3DA34E00BBA7D2 /* ListTableViewCell.swift */; };
+		9FA47A782B3DE9E300BBA7D2 /* ToppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA47A772B3DE9E300BBA7D2 /* ToppingTableViewController.swift */; };
+		9FA47A7A2B3EC41C00BBA7D2 /* ToppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA47A792B3EC41C00BBA7D2 /* ToppingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F3332472B35DDDC005DFDF1 /* kebukeOrderingSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kebukeOrderingSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F33324A2B35DDDC005DFDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F33324C2B35DDDC005DFDF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F33324E2B35DDDC005DFDF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F3332512B35DDDC005DFDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F3332532B35DDDF005DFDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3332562B35DDDF005DFDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F3332582B35DDDF005DFDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3332602B35DF73005DFDF1 /* KebukeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KebukeMenu.swift; sourceTree = "<group>"; };
+		9F3332622B36AAEA005DFDF1 /* EnteringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnteringViewController.swift; sourceTree = "<group>"; };
+		9F3332642B397442005DFDF1 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		9F3332862B3AF52C005DFDF1 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		9F33328D2B3B5807005DFDF1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9F33328F2B3B5F4D005DFDF1 /* sweetIceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweetIceTableViewCell.swift; sourceTree = "<group>"; };
+		9F3332972B3C79D9005DFDF1 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		9F3332992B3C7AD3005DFDF1 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		9F33329B2B3CB0B7005DFDF1 /* UploadOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadOrder.swift; sourceTree = "<group>"; };
+		9F33329F2B3D3E00005DFDF1 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		9FA47A752B3DA34E00BBA7D2 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		9FA47A772B3DE9E300BBA7D2 /* ToppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingTableViewController.swift; sourceTree = "<group>"; };
+		9FA47A792B3EC41C00BBA7D2 /* ToppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F33328A2B3B24E1005DFDF1 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +84,49 @@
 			children = (
 				9F33324A2B35DDDC005DFDF1 /* AppDelegate.swift */,
 				9F33324C2B35DDDC005DFDF1 /* SceneDelegate.swift */,
-				9F33324E2B35DDDC005DFDF1 /* ViewController.swift */,
-				9F3332502B35DDDC005DFDF1 /* Main.storyboard */,
+				9FA47A7C2B3FD11600BBA7D2 /* View */,
+				9FA47A7D2B3FD12900BBA7D2 /* Controller */,
+				9FA47A7B2B3FD0FF00BBA7D2 /* MODEL */,
 				9F3332532B35DDDF005DFDF1 /* Assets.xcassets */,
-				9F3332552B35DDDF005DFDF1 /* LaunchScreen.storyboard */,
 				9F3332582B35DDDF005DFDF1 /* Info.plist */,
 			);
 			path = kebukeOrderingSystem;
+			sourceTree = "<group>";
+		};
+		9FA47A7B2B3FD0FF00BBA7D2 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				9F3332602B35DF73005DFDF1 /* KebukeMenu.swift */,
+				9F33329B2B3CB0B7005DFDF1 /* UploadOrder.swift */,
+			);
+			name = MODEL;
+			sourceTree = "<group>";
+		};
+		9FA47A7C2B3FD11600BBA7D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F3332502B35DDDC005DFDF1 /* Main.storyboard */,
+				9F3332552B35DDDF005DFDF1 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9FA47A7D2B3FD12900BBA7D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FA47A752B3DA34E00BBA7D2 /* ListTableViewCell.swift */,
+				9F33329F2B3D3E00005DFDF1 /* ListTableViewController.swift */,
+				9F3332992B3C7AD3005DFDF1 /* CartTableViewCell.swift */,
+				9F3332972B3C79D9005DFDF1 /* CartViewController.swift */,
+				9FA47A772B3DE9E300BBA7D2 /* ToppingTableViewController.swift */,
+				9FA47A792B3EC41C00BBA7D2 /* ToppingTableViewCell.swift */,
+				9F33328D2B3B5807005DFDF1 /* DetailViewController.swift */,
+				9F33328F2B3B5F4D005DFDF1 /* sweetIceTableViewCell.swift */,
+				9F3332642B397442005DFDF1 /* OrderViewController.swift */,
+				9F3332862B3AF52C005DFDF1 /* OrderTableViewCell.swift */,
+				9F3332622B36AAEA005DFDF1 /* EnteringViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +145,9 @@
 			dependencies = (
 			);
 			name = kebukeOrderingSystem;
+			packageProductDependencies = (
+				9F3332892B3B24E1005DFDF1 /* Kingfisher */,
+			);
 			productName = kebukeOrderingSystem;
 			productReference = 9F3332472B35DDDC005DFDF1 /* kebukeOrderingSystem.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 9F33323E2B35DDDC005DFDF1;
+			packageReferences = (
+				9F3332882B3B24E1005DFDF1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 9F3332482B35DDDC005DFDF1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +206,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F33324F2B35DDDC005DFDF1 /* ViewController.swift in Sources */,
+				9F33329C2B3CB0B7005DFDF1 /* UploadOrder.swift in Sources */,
+				9F3332872B3AF52C005DFDF1 /* OrderTableViewCell.swift in Sources */,
+				9F3332982B3C79D9005DFDF1 /* CartViewController.swift in Sources */,
 				9F33324B2B35DDDC005DFDF1 /* AppDelegate.swift in Sources */,
+				9F3332A02B3D3E00005DFDF1 /* ListTableViewController.swift in Sources */,
+				9F3332652B397442005DFDF1 /* OrderViewController.swift in Sources */,
+				9FA47A782B3DE9E300BBA7D2 /* ToppingTableViewController.swift in Sources */,
+				9FA47A762B3DA34E00BBA7D2 /* ListTableViewCell.swift in Sources */,
+				9FA47A7A2B3EC41C00BBA7D2 /* ToppingTableViewCell.swift in Sources */,
+				9F33329A2B3C7AD3005DFDF1 /* CartTableViewCell.swift in Sources */,
+				9F3332612B35DF73005DFDF1 /* KebukeMenu.swift in Sources */,
+				9F3332902B3B5F4D005DFDF1 /* sweetIceTableViewCell.swift in Sources */,
+				9F3332632B36AAEA005DFDF1 /* EnteringViewController.swift in Sources */,
 				9F33324D2B35DDDC005DFDF1 /* SceneDelegate.swift in Sources */,
+				9F33328E2B3B5807005DFDF1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +375,13 @@
 				DEVELOPMENT_TEAM = T4VR973TMF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = kebukeOrderingSystem/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kebuke;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +405,13 @@
 				DEVELOPMENT_TEAM = T4VR973TMF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = kebukeOrderingSystem/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kebuke;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F3332882B3B24E1005DFDF1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F3332892B3B24E1005DFDF1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F3332882B3B24E1005DFDF1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F33323F2B35DDDC005DFDF1 /* Project object */;
 }

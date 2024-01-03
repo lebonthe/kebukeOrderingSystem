@@ -23,6 +23,7 @@ enum APIKey {
         guard let apiKey = try? PropertyListDecoder().decode(ApiKeyData.self, from: data).apiKey else {
             fatalError("Couldn't find key apiKey")
         }
+        print("Read API Key: \(apiKey)") // Debug 輸出
         return apiKey
     }()
 }

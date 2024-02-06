@@ -31,7 +31,7 @@ class ListTableViewController: UITableViewController {
         let url = URL(string: "https://api.airtable.com/v0/appydWW9bHuuV62CI/drinks")!
         var request = URLRequest(url: url)
         // 設定授權權杖
-        request.setValue("Bearer patDK3AqYWQtOw56w.5178e21af56537e366ad0f7cdd338c1540609463807697514d1aeeb8ca25b289", forHTTPHeaderField: "Authorization")
+        request.setValue("Bearer \(APIKey.default)", forHTTPHeaderField: "Authorization")
         // 設定 HTTP 方法為 GET
         request.httpMethod = "GET"
         // 發送網路請求
